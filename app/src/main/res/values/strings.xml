@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gym</string>
+    <string name="title_home">Diet</string>
+    <string name="title_dashboard">Plan</string>
+    <string name="title_notifications">All Plan</string>
+    <string name="dietlist">Diet Plan</string>
+    <string name="body">Full Body Wokr Out </string>
+    <string name="day1">Exercise </string>
+</resources>

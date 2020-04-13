@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.planList.planListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/dietListColor"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back_id"
+            android:background="@drawable/back"
+            android:layout_height="30dp">
+
+        </ImageButton>
+        <TextView
+            android:layout_width="150sp"
+            android:layout_marginLeft="10dp"
+            android:textSize="19dp"
+            android:textColor="@color/cardcolor"
+            android:textStyle="bold"
+            android:text="@string/dietlist"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50sp">
+
+        </TextView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="620dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/day1"
+                    android:layout_height="600dp">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
